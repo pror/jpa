@@ -26,8 +26,8 @@ public class User {
         return role;
     }
 
-    public User(long id, String name, String role) {
-        this.id = id;
+    public User(String name, String role) {
+
         this.name = name;
         this.role = role;
     }
